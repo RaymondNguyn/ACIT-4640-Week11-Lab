@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/358ae571-9918-4179-ac95-1367753af3a7)
+![image](https://github.com/user-attachments/assets/2e055b54-3499-4514-a32a-3e530f30a234)
+
 
 We installed boto3 to get it to work with the aws plugin
 
