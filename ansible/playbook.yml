@@ -1,18 +1,18 @@
 - name: Setup backend
-  hosts: all
+  hosts: server_role_redis_server
   become: true
   gather_facts: yes
 
   vars:
-    ansible_user: 'rocky'
+    ansible_user: rocky
   roles:
     - backend
 
 - name: Setup frontend
-  hosts: all
+  hosts: server_role_frontend_server
   become: true
   gather_facts: yes
   vars:
-    ansible_user: 'ubuntu'
+    ansible_user: ubuntu
   roles:
     - frontend
